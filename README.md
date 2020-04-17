@@ -1,6 +1,6 @@
 Rekayasa Perangkat Lunak Berbasis Komponen<br>
 Nobi Kharisma (21120117130048)<br>
-Julian Emanuel (211200117140026)<br><br>
+Julian Emanuel (211200117140026)<br>
 
 ================================================================<br>
 
@@ -15,7 +15,7 @@ Cara Instalasi:
 
 Halaman Awal<br>
 http://ec2-18-206-164-171.compute-1.amazonaws.com/
-<br>
+<br><br>
 Gambar S3 <br>
 Nobi--> https://nobijulianrsbk.s3.amazonaws.com/nobi.jpg
 <br>Julian--> https://nobijulianrsbk.s3.amazonaws.com/julian.jpg
