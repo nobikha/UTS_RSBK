@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+  <title>Formulir Survei</title>
+  <style>
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 4px;
+ 
+  
+  
+}
+
+li {
+  
+  float:center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#0096aa;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</h:head>
+<h:body>
+<ul  align= "center" style="background: #009688">
+  
+  <li><a href="http://18.206.164.171/" style="width:200px">Tugas Sebelumnya</a></li>
+</ul>
+<div>
+    <h2 align="center">Formulir Survei</h2>
+		<table align="center">
+			<tr>
+				<td>Nama:</td>
+				<td><h:outputText value="#{employeeBean.namaDepan}" /></td>
+			</tr>
+			
+				   
+				   <tr>
+				<td>Tanggal Lahir:</td>
+				<td><h:outputText value="#{employeeBean.tglsurvey}" /></td>
+			</tr>
+			
+			<tr>
+				<td>Jenis Kelamin:</td>
+				<td><h:outputText value="#{employeeBean.fasilitas}" /></td>
+			</tr>
+				   <tr>
+				 <td>Alamat:</td>
+				<td><h:outputText value="#{employeeBean.address}" /></td>
+			</tr>
+			
+			<tr>
+				<td>No HP:</td>
+				<td><h:outputText value="#{employeeBean.mobileNumber}" /></td>
+			</tr>
+			
+		
+			<tr>
+				<td>Email:</td>
+				<td><h:outputText value="#{employeeBean.emailAddress}" /></td>
+			</tr>
+			
+			
+						<tr>
+				<td>Tambahan:</td>
+				<td><h:outputText value="#{employeeBean.komentar}" /></td>
+			</tr>
+			<tr>
+			</tr>
+		</table>
+				 </div>
+				 <h2 style="color:#009688" align="center">Data Disimpan</h2>
+			<h2 align="center"><a href="http://54.175.231.96:8080/tugasutsrsbk/formsiswa.xhtml" style="color:black" >Kembali</a></h2>
+			
+			
+		</h:body>	
+	</html>

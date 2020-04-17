@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">      
+<h:head>
+  <title>Formulir Survei</title>
+  <style>
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 4px;
+  
+  
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+li {
+  float: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</h:head>
+
+<h:body>
+<div>
+  <h:form>
+    <h2 align="center">Formulir Survei</h2>
+    	<table align="center">
+			<tr>
+				<td>Nama:</td>
+				<td><h:outputText value="#{employeeBean.namaDepan}" /></td>
+			</tr>
+			
+				   
+				   <tr>
+				<td>Tanggal Lahir:</td>
+				<td><h:outputText value="#{employeeBean.tglsurvey}" /></td>
+			</tr>
+			
+			<tr>
+				<td>Jenis Kelamin:</td>
+				<td><h:outputText value="#{employeeBean.fasilitas}" /></td>
+			</tr>
+				   <tr>
+				 <td>Alamat:</td>
+				<td><h:outputText value="#{employeeBean.address}" /></td>
+			</tr>
+			
+			<tr>
+				<td>No HP:</td>
+				<td><h:outputText value="#{employeeBean.mobileNumber}" /></td>
+			</tr>
+			
+		
+			<tr>
+				<td>Email:</td>
+				<td><h:outputText value="#{employeeBean.emailAddress}" /></td>
+			</tr>
+			
+			
+						<tr>
+				<td>Tambahan:</td>
+				<td><h:outputText value="#{employeeBean.komentar}" /></td>
+			</tr>
+			<tr>
+			</tr>
+		</table>
+	
+    <p align="center">
+  <h:commandButton value="Kembali" style="width:100px;background: black;margin-right:5px" action="formsiswa" />
+    <h:commandButton value="Submit" action="success" style="width:100px;background: #009688;margin-left:5px"/></p>
+  </h:form>
+  </div>
+</h:body>
+</html>
