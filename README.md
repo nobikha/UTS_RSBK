@@ -10,9 +10,9 @@ Cara Instalasi:
 3. Jalankan  Payara server / tomcat server
 4. Klik kanan pada project >> Run As >> Run on server
 5. Pada browser ketik: http://localhost:<port_no>/utsnobijulian
-<br>
-================================================================<br>
 
+================================================================
+<br>
 Halaman Awal<br>
 http://ec2-18-206-164-171.compute-1.amazonaws.com/
 <br><br>
