@@ -1,3 +1,9 @@
+Rekayasa Perangkat Lunak Berbasis Komponen
+Nobi Kharisma (21120117130048)
+Julian Emanuel (211200117140026)
+
+================================================================
+
 Cara Instalasi:
 1. Download project utsnobijulian
 2. Import project utsnobijulian ke dalam Eclipse
@@ -5,6 +11,7 @@ Cara Instalasi:
 4. Klik kanan pada project >> Run As >> Run on server
 5. Pada browser ketik: http://localhost:<port_no>/utsnobijulian
 
+================================================================
 
 Halaman Awal
 http://ec2-18-206-164-171.compute-1.amazonaws.com/
