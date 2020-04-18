@@ -1,6 +1,6 @@
 Rekayasa Perangkat Lunak Berbasis Komponen<br>
 Nobi Kharisma (21120117130048)<br>
-Julian Emanuel (211200117140026)<br>
+Julian Emanuel (21120117140026)<br>
 
 ================================================================<br>
 
